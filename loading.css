@@ -15,7 +15,8 @@
     flex-wrap:wrap;
     align-items: flex-end;
     width: 120px;
-    margin: 30%;
+    padding-top:20%;
+    
     
   }
   .bouncing-loader span{
@@ -46,8 +47,7 @@
 
  
 body{
-  background-color: black;
-  background-image:url(riju.jpg);
+  background-image: linear-gradient(black,#CC005F);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
