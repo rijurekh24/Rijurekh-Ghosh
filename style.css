@@ -2,7 +2,7 @@
 
 h5{
     color: #CC005F;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     top: 100px;
     font-family: 'Questrial', sans-serif;
@@ -11,7 +11,7 @@ h5{
 h1{
     color: #d6249f;
     top: 100px;
-    font-size: 45px;
+    font-size: 38px;
     position: relative;
     font-family: 'Questrial', sans-serif;
     word-spacing: 10px;
@@ -49,7 +49,7 @@ button{
     top: 130px;
     position: relative;
     font-family: 'Questrial', sans-serif;
-    width: 400px;
+    width: 350px;
     transition: all 1s;
 
 
@@ -58,7 +58,7 @@ button:hover{
     border-color:#CC005F;
     color: white;
     border-radius: 20px 20px 20px 20px;
-    width: 450px;
+    width: 410px;
     text-decoration: underline;
 }
 
@@ -104,7 +104,7 @@ a:hover
 
 h6{ position: relative;
     top: 200px;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     font-family: 'Questrial', sans-serif;
     word-spacing: 3px;
