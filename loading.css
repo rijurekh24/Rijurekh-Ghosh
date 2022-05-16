@@ -28,7 +28,8 @@
       font-weight:;
       letter-spacing: 8px;
       display: inline-block;
-      white-space: nowrap;
+      
+      <! -- white-space: nowrap; -->
       font-family: 'Questrial', sans-serif;
   }
   
