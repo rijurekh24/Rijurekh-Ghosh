@@ -1,0 +1,54 @@
+@keyframes bouncing-loader {
+    from{
+        transform: scaleX(1.25);
+    }
+    to {
+      opacity:0.3;
+      transform: translateY(-50px) scaleX(1);
+    }
+  }
+  
+  .bouncing-loader {
+    display: flex;
+    justify-content:space-between;
+    height: 75px;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    width: 120px;
+    margin: 30%;
+    
+  }
+  .bouncing-loader span{
+      font-size: 20px;
+      text-transform: uppercase;
+    
+      color: white;
+      display: inline-block;
+  }
+  
+  .bouncing-loader > div {
+
+    width: 25px;
+    height: 25px;
+    margin: 3rem 0.2rem;
+    background: #CC005F;
+    border-radius: 50%;
+    animation: bouncing-loader 0.6s infinite alternate;
+  }
+  
+  .bouncing-loader > div:nth-child(2) {
+    animation-delay: 0.16s;
+  }
+  
+  .bouncing-loader > div:nth-child(3) {
+    animation-delay: 0.32s;
+  }
+
+ 
+body{
+  background-color: black;
+  background-image:url(riju.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
